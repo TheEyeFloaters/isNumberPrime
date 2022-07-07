@@ -8,10 +8,10 @@ public class MiniProjects {
         boolean isAsal= true ;
         for (int i = 2 ; i < k ; i++) {
             if (k%i == 0){
-                isAsal= false ;
+                isPrime= false ;
             }
         }
-        if (isAsal){
+        if (isPrime){
             System.out.println("The number you entered is prime. ");
         }
 
