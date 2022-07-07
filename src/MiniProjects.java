@@ -5,7 +5,7 @@ public class MiniProjects {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter a number: ");
         int k = s.nextInt();
-        boolean isAsal= true ;
+        boolean isPrime= true ;
         for (int i = 2 ; i < k ; i++) {
             if (k%i == 0){
                 isPrime= false ;
